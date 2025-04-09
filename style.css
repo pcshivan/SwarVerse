@@ -22,3 +22,60 @@ img {
     border-radius: 10px;
     margin: 10px 0;
 }
+/* === NEW STYLES FOR SWARVERSE === */
+
+/* General body styling */
+body {
+  background: linear-gradient(to bottom right, #000000, #1a1a1a);
+  font-family: 'Segoe UI', sans-serif;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* Headings */
+h1, h2 {
+  color: #ffbb00;
+  text-shadow: 1px 1px 5px #000;
+}
+
+/* Images */
+img {
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+  transition: transform 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+}
+
+/* Links */
+a {
+  color: #00ffe1;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #ffaa00;
+  text-shadow: 0 0 8px #ffaa00;
+}
+
+/* Buttons if you ever add them */
+button {
+  background-color: #ffaa00;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #ffdd55;
+}
