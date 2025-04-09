@@ -1,33 +1,4 @@
 
-body {
-    font-family: 'Segoe UI', sans-serif;
-    background: #1a1a1a;
-    color: #f0f0f0;
-    text-align: center;
-    padding: 20px;
-}
-h1, h2, h3 {
-    color: #f9d342;
-    text-shadow: 1px 1px 5px #000;
-
-}
-a {
-    color: #00ffe1;
-    text-decoration: none;
-    font-weight: bold;
-    transition: color 0.2s ease;
-}
-a:hover {
-  color: #ffaa00;
-  text-shadow: 0 0 8px #ffaa00;
-}
-
-ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
 /* === NEW STYLES FOR SWARVERSE === */
 
 
@@ -50,6 +21,28 @@ h1, h2,h3 {
   text-shadow: 1px 1px 5px #000;
 }
 
+
+
+/* Links */
+a {
+  color: #00ffe1;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #ffaa00;
+  text-shadow: 0 0 8px #ffaa00;
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
 /* Images */
 img {
 
@@ -67,20 +60,6 @@ img:hover {
   transform: scale(1.03);
   cursor: pointer;
 }
-
-/* Links */
-a {
-  color: #00ffe1;
-  text-decoration: none;
-  font-weight: bold;
-  transition: color 0.2s ease;
-}
-
-a:hover {
-  color: #ffaa00;
-  text-shadow: 0 0 8px #ffaa00;
-}
-
 /* Buttons if you ever add them */
 button {
   background-color: #ffaa00;
