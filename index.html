@@ -5,6 +5,8 @@
     <title>Main Page | SwarVerse</title>
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/image-map-resizer@1.0.10/js/imageMapResizer.min.js"></script>
+
 
 </head>
 <body>
@@ -40,6 +42,8 @@
 <script>
   window.addEventListener('DOMContentLoaded', () => {
     document.body.classList.add('loaded');
+       if (typeof imageMapResize === 'function') {
+      imageMapResize();
   });
 </script>
     
