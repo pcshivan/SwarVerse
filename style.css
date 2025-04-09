@@ -91,3 +91,14 @@ button:hover {
   }
 }
 
+
+body {
+  opacity: 0;
+  transition: opacity 0.8s ease-in;
+}
+
+body.loaded {
+  opacity: 1;
+}
+
+
