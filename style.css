@@ -79,3 +79,15 @@ button {
 button:hover {
   background-color: #ffdd55;
 }
+
+
+@media (max-width: 768px) {
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  body {
+    padding: 10px;
+  }
+}
+
