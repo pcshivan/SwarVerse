@@ -6,13 +6,14 @@
 html, body {
     margin: 0;
     padding: 0;
-    width: 100%;
-    height: 100%; 
+    width: 100vw;
+    height: 100vh; 
     background: linear-gradient(to bottom right, #000000, #1a1a1a);
     font-family: 'Segoe UI', sans-serif;
     color: #ffffff;
     text-align: center;
     overflow-x: hidden;
+    overflow-y: auto;
 }
 
 /* Headings */
@@ -45,15 +46,16 @@ ul {
 
 /* Images */
 img {
-
+    display: block;
+    margin: 0 auto;
+    width: 100vw;
+    height: auto;
+    max-width: 100%;
      /*border: 1px solid #333;*/
     border-radius: 12px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.5);
     transition: transform 0.3s ease;
-    display: block;
-    margin: 10px auto;
-    max-width: 100%;
-    height: auto;
+   
 }
 
 img:hover {
